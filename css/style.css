@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lato',sans-serif;
+}
+
+body{
+    height:100vh;
+    background:linear-gradient(120deg,rgb(54, 230, 218),rgb(156, 26, 199));
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.relógio{
+    display:flex ;
+    align-items: center;
+    justify-content: space-around;
+    height:240px;
+    width: 600px;
+    background: transparent;
+    border-radius: 25px;
+    box-shadow: 0px 5px 25px 6px rgba(0, 0, 0, 0.603);
+}
+
+.relógio div{
+    height:205px;
+    width:165px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background:rgba(5, 5, 5, .9);
+    box-shadow: 3px 3px 18px rgb(0, 0, 0);
+    border-radius: 25px;
+    letter-spacing: 3px;
+
+}
+
+.relógio span{
+    font-weight:900;
+    font-size: 80px;
+    font-style: italic;
+}
+
+.relógio span.tempo{
+    font-size: 13px;
+    font-weight: 900;
+    font-style: italic;
+}
